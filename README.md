@@ -4,7 +4,7 @@
 
 A library that supports the use of goto in Java programming with advanced Fortran style goto uses and full debugging support.
 
-On-the-fly bytecode modification enables simple and advanced goto constructs in Java. (Not that you should ... [evil grin] ... but now you can [you probably shouldn't] !
+On-the-fly bytecode modification enables simple and advanced goto constructs in Java - not that you should ... [evil grin] ... but now you can [you probably shouldn't] !
 
 ## Using JavaGoto, substitute these statements for traditional gotos:
 
