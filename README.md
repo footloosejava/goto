@@ -1,35 +1,31 @@
 # goto
 
-Using goto in Java has never been easier! REAL GOTOS not fake gotos and lame immitations. :-D
+## Using goto in Java has never been easier! Real gotos - not fake gotos and lame immitations.
 
-A library that supports the use of goto in Java programming with some advanced goto uses and full debugging support.
+A library that supports the use of goto in Java programming with advanced Fortran style goto uses and full debugging support.
 
-Thanks to some bytecode modification, which can be done to on-the-fly, you can use simple and advanced goto constructs in Java. (Not that you should ... [evil grin] ... but now you can!
+On-the-fly bytecode modification enables simple and advanced goto constructs in Java. (Not that you should ... [evil grin] ... but now you can [you probably shouldn't] !
 
-## Using JavaGoto, substitute these statements for traditional gotos use:
+## Using JavaGoto, substitute these statements for traditional gotos:
 
-* Gotos            -- Instead of **goto [number]** , use **_goto(number);**.
-* Labels           -- Instead of **label [number]**, use **_label(number);**.
-
-Labels and jumps must have set integer values, such as: _label(12), _goto(12), etc.
+* Gotos            -- Instead of `goto [number]` , use `_goto(number)`.
+* Labels           -- Instead of `label [number]`, use `_label(number)`.
 
 ## Advanced use:
 
-* Computed gotos   -- Use **_multiGoto(n,10,20,30 …)** where 'n' is the index that can change at runtime.
+* Computed gotos   -- Use `_multiGoto(n,10,20,30 …)` where `n` is the index that can change at runtime.
 
-* Multiple returns -- the use of a label followed by an **if(yes()){return;}** will allow code to have many multiple returns after each label reached, (similar to goto:EOF after a DOS goto or a standard return after a fortran goto.
+* Multiple returns -- Labels followed by `if(yes()){return;}` will allow code to have **many multiple returns** after each label reached, (similar to goto:EOF after a DOS goto or a standard return after a fortran goto.
 
-
-
-## Four Easy Steps to Using Gotos in your Java program
+## Four Easy Steps to Using Gotos in your Java Program
 
 1. Make sure your class extends the Goto interface.
 
-2. Use _goto(n) instead of goto and _label(n) as the target. Labels and jumps must have set integer values, such as: _label(12), _goto(12), etc.
+2. Use `_goto(n)` instead of goto and `_label(n)` as the target. Labels and jumps must have set integer values, such as: `_label(12)`, `_goto(12)`, etc.
 
-3. Computed gotos use _multiGoto(n,10,20,30 …), where n is the index of label and where n is a value you change at runtime.
+3. Computed gotos use `_multiGoto(n,10,20,30 …)`, where n is the index of label and where n is a value you change at runtime.
 
-4. Use GotoLoader.newInstance(class) or GotoLoader.load(classname)  to load the main class (or instance) or only the classes (and instances) you want gotos in.
+4. Use `GotoLoader.newInstance(class)` or `GotoLoader.load(classname)` to load the main class (or instance) or only the classes (and instances) you want gotos in.
 
 Debuggers precisely follow the flow of all jumps and labels making flow analysis convenient and easy.
 
