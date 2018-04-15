@@ -4,7 +4,7 @@
     <groupId>github.footloosejava</groupId>
     <artifactId>goto</artifactId>
     <packaging>jar</packaging>
-    <version>3.0</version>
+    <version>3.1-SNAPSHOT</version>
     <name>${project.groupId}.${project.artifactId} (${project.version})</name>
     <developers>
         <developer>
