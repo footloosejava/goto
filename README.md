@@ -1,8 +1,8 @@
 # goto
 
-## Using goto in Java has never been easier! REAL GOTOS not fake gotos and lame immitations.
+## Using goto in Java has never been easier! Real gotos - not fake gotos and lame immitations.
 
-A library that supports the use of goto in Java programming with some advanced Fortran style goto uses and full debugging support.
+A library that supports the use of goto in Java programming with advanced Fortran style goto uses and full debugging support.
 
 On-the-fly bytecode modification enables simple and advanced goto constructs in Java. (Not that you should ... [evil grin] ... but now you can [you probably shouldn't] !
 
