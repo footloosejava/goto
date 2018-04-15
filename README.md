@@ -1,17 +1,15 @@
 # goto
 
-Using goto in Java has never been easier! REAL GOTOS not fake gotos and lame immitations.
+## Using goto in Java has never been easier! REAL GOTOS not fake gotos and lame immitations.
 
 A library that supports the use of goto in Java programming with some advanced Fortran style goto uses and full debugging support.
 
-Thanks to some bytecode modification, which can be done to on-the-fly, you can use simple and advanced goto constructs in Java. (Not that you should ... [evil grin] ... but now you can [you probably shouldn't] !
+On-the-fly bytecode modification enables simple and advanced goto constructs in Java. (Not that you should ... [evil grin] ... but now you can [you probably shouldn't] !
 
-## Using JavaGoto, substitute these statements for traditional gotos use:
+## Using JavaGoto, substitute these statements for traditional gotos:
 
 * Gotos            -- Instead of `goto [number]` , use `_goto(number)`.
 * Labels           -- Instead of `label [number]`, use `_label(number)`.
-
-Labels and jumps must have set integer values, such as:` _label(12)`, `_goto(12)`, etc.
 
 ## Advanced use:
 
@@ -19,7 +17,7 @@ Labels and jumps must have set integer values, such as:` _label(12)`, `_goto(12)
 
 * Multiple returns -- Labels followed by `if(yes()){return;}` will allow code to have **many multiple returns** after each label reached, (similar to goto:EOF after a DOS goto or a standard return after a fortran goto.
 
-## Four Easy Steps to Using Gotos in your Java program
+## Four Easy Steps to Using Gotos in your Java Program
 
 1. Make sure your class extends the Goto interface.
 
