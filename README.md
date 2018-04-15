@@ -17,6 +17,27 @@ On-the-fly bytecode modification enables simple and advanced goto constructs in 
 
 * Multiple returns -- Labels followed by `if(yes()){return;}` will allow code to have **many multiple returns** after each label reached, (similar to goto:EOF after a DOS goto or a standard return after a fortran goto.
 
+## To get this Git project into your build:
+ 
+Follow instructions at [https://jitpack.io/#footloosejava/goto](https://jitpack.io/#footloosejava/goto) or these steps for Maven:
+ 
+Step 1. Add the JitPack repository to your build file
+```
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+
+Step 2. Add the dependency
+```
+<dependency>
+    <groupId>com.github.footloosejava</groupId>
+    <artifactId>goto</artifactId>
+    <version>v3.0</version>
+</dependency>
+```
+
 ## Four Easy Steps to Using Gotos in your Java Program
 
 1. Make sure your class extends the Goto interface.
