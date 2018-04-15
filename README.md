@@ -101,7 +101,7 @@ If a label appears in a region of_unreachable code, simply insert ‘unreachable
 ```
 // this will jump to the label indicated by the index of JMP variable
 // 0 will goto 551, 1 to 552 etc.
-multiJump(JMP, 551, 552, 553, 554, 555, 556, 557, 558, 27);
+_multiGoto(JMP, 551, 552, 553, 554, 555, 556, 557, 558, 27);
 
 _unreachable("No jump in _multiGoto lands here!");
 
