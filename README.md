@@ -6,16 +6,20 @@ A library that supports the use of goto in Java programming with advanced Fortra
 
 On-the-fly bytecode modification enables simple and advanced goto constructs in Java - not that you should ... [evil grin] ... but now you can [you probably shouldn't] !
 
-## Using JavaGoto, substitute these statements for traditional gotos:
+## Substitute these statements for gotos:
 
 * Gotos            -- Instead of `goto [number]` , use `_goto(number)`.
 * Labels           -- Instead of `label [number]`, use `_label(number)`.
 
-## Advanced use:
+## Advanced uses:
 
 * Computed gotos   -- Use `_multiGoto(n,10,20,30 …)` where `n` is the index that can change at runtime.
 
-* Multiple returns -- Labels followed by `if(yes()){return;}` will allow code to have **many multiple returns** after each label reached, (similar to goto:EOF after a DOS goto or a standard return after a fortran goto.
+* Multiple returns -- Labels followed by `if(yes()){return;}` will allow code to have **many multiple returns** after each label is reached. This is similar to goto:EOF after a DOS goto or a standard return after a fortran goto.
+
+## Why would anyone want to use gotos?
+
+I suggest that you only use this library for experimenting, for research and possibly for some possible uses in translation or obfuscation. Gotos should never be part of any commercial or professional codebase. **This library allows you do do things that are usually better done (in 99% of cases) with proper control flow constructs like `for(..)`, `while(...)`, `switch()` and other more declarative methods.** Perhaps this `goto` library can be part of an educational lesson as to why `gotos` are bad for code readability and maintainability. 
 
 ## To get this Git project into your build:
  
