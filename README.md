@@ -19,7 +19,7 @@ On-the-fly bytecode modification enables simple and advanced goto constructs in 
 
 ## Why would anyone want to use gotos?
 
-I suggest that you only use this library for experimenting, for research and possibly for some possible uses in translation or obfuscation. Gotos should never be part of any commercial or professional codebase. **This library allows you do do things that are usually better done (in 99% of cases) with proper control flow constructs like `for(..)`, `while(...)`, `switch()` and other more declarative methods.** Perhaps this `goto` library can be part of an educational lesson as to why `gotos` are bad for code readability and maintainability. 
+I suggest that you only use this library for experimenting, for research and possibly in translation or obfuscation. Gotos should never be part of any commercial or professional codebase. **This library allows you do do things that are usually better done (in 99% of cases) with proper control flow constructs like `for(..)`, `while(...)`, `switch()` and other more declarative methods.** Perhaps this `goto` library can be part of an educational lesson as to why `gotos` are bad for code readability and maintainability. 
 
 ## To get this Git project into your build:
  
